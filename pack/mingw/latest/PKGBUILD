@@ -4,7 +4,7 @@ _pkgname=srain-git
 pkgname=${MINGW_PACKAGE_PREFIX}-${_pkgname}
 _pkgver=1.0.0rc1
 pkgver=1.0.0rc1.1067.0542dd1
-pkgrel=1
+pkgrel=2
 pkgdesc="Modern IRC client, git version (mingw-w64)"
 arch=('any')
 license=('GPL')
@@ -37,9 +37,9 @@ build() {
     cd ${_pkgname%-git}
 
     ./configure                         \
-        --prefix=${_prefix}             \
-        --datadir=${_prefix}/share      \
-        --sysconfdir=${_prefix}/etc     \
+        --prefix="${_prefix}"           \
+        --datadir="${_prefix}/share"    \
+        --sysconfdir="${_prefix}/etc"   \
         --disable-debug
     make clean
     make
@@ -48,6 +48,6 @@ build() {
 package() {
     cd ${_pkgname%-git}
 
-    make DESTDIR=${pkgdir} install
-    mv ${pkgdir}/${_prefix}/bin/${_pkgname%-git}{,.exe}
+    make DESTDIR="${pkgdir}" install
+    mv "${pkgdir}/${_prefix}/bin/${_pkgname%-git}"{,.exe}
 }
