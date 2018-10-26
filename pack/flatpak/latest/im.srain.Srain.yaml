@@ -1,0 +1,34 @@
+---
+app-id: im.srain.Srain
+runtime: org.gnome.Platform
+runtime-version: '3.30'
+sdk: org.gnome.Sdk
+command: srain
+finish-args:
+  - "--share=ipc"
+  - "--filesystem=home:ro"
+  - "--socket=pulseaudio"
+  - "--socket=x11"
+  - "--socket=wayland"
+  - "--share=network"
+modules:
+  - name: libconfig
+    sources:
+      - type: archive
+        url: https://hyperrealm.github.io/libconfig/dist/libconfig-1.7.2.tar.gz
+        sha256: 7c3c7a9c73ff3302084386e96f903eb62ce06953bb1666235fac74363a16fad9
+    cleanup:
+      - "/include"
+      - "*.la"
+      - "*.a"
+      - "/lib/pkgconfig"
+
+  - name: srain
+    config-opts:
+      - "--datadir=/app/share"
+      - "--config-dir=/app/etc"
+    sources:
+      - type: git
+        url: https://github.com/SilverRainZ/srain.git
+        branch: master
+        commit: 4dda1952669143c6366cb6954ca283a3095c6d22
