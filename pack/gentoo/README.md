@@ -6,6 +6,6 @@
 - Create a local overlay and put srain ebuilds in category `net-irc/srain`. For creating a local overlay, please read [gentoo local overlay wiki](https://wiki.gentoo.org/wiki/Handbook:AMD64/Portage/CustomTree#Defining_a_custom_repository) and [overlay development](https://wiki.gentoo.org/wiki/Custom_repository).
 
 # Configuration
-- Check out [srainrc.example](https://raw.githubusercontent.com/SilverRainZ/srain/master/srainrc.example) and `/etc/xdg/srain/builtin.cfg` sample configuration file. You can copy and rename it to `~/.config/srain/srain.cfg` , change `srain.cfg` as whatever you like, then (re)start srain client.
+- Check out [srainrc.example](https://raw.githubusercontent.com/SrainApp/srain/master/srainrc.example) and `/etc/xdg/srain/builtin.cfg` sample configuration file. You can copy and rename it to `~/.config/srain/srain.cfg` , change `srain.cfg` as whatever you like, then (re)start srain client.
 
-If you find any bugs or ideas, file an issue [here](https://github.com/SilverRainZ/srain/issues).
+If you find any bugs or ideas, file an issue [here](https://github.com/SrainApp/srain/issues).

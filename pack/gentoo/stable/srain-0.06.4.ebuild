@@ -4,7 +4,7 @@
 EAPI=6
 
 DESCRIPTION="Modern, beautiful IRC client written in GTK+ 3"
-HOMEPAGE="https://github.com/SilverRainZ/srain"
+HOMEPAGE="https://github.com/SrainApp/srain"
 SRC_URI="https://github.com/SilverRainZ/${PN}/archive/${PV}.tar.gz"
 
 LICENSE="GPL-3"

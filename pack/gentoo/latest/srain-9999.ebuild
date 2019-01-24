@@ -6,8 +6,8 @@ EAPI=6
 inherit git-r3
 
 DESCRIPTION="Modern, beautiful IRC client written in GTK+ 3"
-HOMEPAGE="https://github.com/SilverRainZ/srain"
-EGIT_REPO_URI="https://github.com/SilverRainZ/srain.git"
+HOMEPAGE="https://github.com/SrainApp/srain"
+EGIT_REPO_URI="https://github.com/SrainApp/srain.git"
 IUSE="debug"
 
 LICENSE="GPL-3"

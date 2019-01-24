@@ -29,6 +29,6 @@ modules:
       - "--config-dir=/app/etc"
     sources:
       - type: git
-        url: https://github.com/SilverRainZ/srain.git
+        url: https://github.com/SrainApp/srain.git
         branch: master
         commit: 4dda1952669143c6366cb6954ca283a3095c6d22
