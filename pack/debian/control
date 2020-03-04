@@ -24,7 +24,8 @@ Depends:
   libgtk-3-0 (>= 3.16), 
   glib-networking, 
   libsoup2.4-1, 
-  libconfig9 (>= 1.5), 
+  libconfig9 (>= 1.5)
+Recommends:  
   libsecret-1-0
 Description: Srain IRC client
  Modern IRC client written in GTK.
