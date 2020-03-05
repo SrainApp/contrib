@@ -8,7 +8,7 @@ srain (1.0.0) stable; urgency=medium
     - Allow Srain runs without dbus secrets service (#195)
     - Fix nick generation logical (39ced08)
 
- -- Xuxin He <hxxtom@gmail.com>  Wed, 04 Mar 2020 12:27:31 +0800
+ -- Shengyu Zhang <i@silverrainz.me>  Mon, 24 Feb 2020 23:10:17 +0800
 
 srain (0.05.1-1) unstable; urgency=medium
 

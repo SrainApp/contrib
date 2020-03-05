@@ -3,7 +3,7 @@ Upstream-Name: srain
 Source: https://github.com/SrainApp/srain/
 
 Files: *
-Copyright: 2016 Shengyu Zhang <silverrainz@outlook.com>
+Copyright: 2016 Shengyu Zhang <i@silverrainz.me>
 License: GPL-3.0+
 
 Files: debian/*
