@@ -1,6 +1,12 @@
-srain (1.0.0) stable; urgency=medium
+srain (1.0.1-1) unstable; urgency=medium
 
-  * Changes: 
+  * cleaned debian stuff
+
+ -- David Heidelberg <david@ixit.cz>  Mon, 16 Mar 2020 13:25:39 +0000
+
+srain (1.0.0-1) unstable; urgency=medium
+
+  * Changes:
     - Some code cleanup
     - Update Quick Start documentation
 
