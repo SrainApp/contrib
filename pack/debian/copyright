@@ -6,6 +6,10 @@ Files: *
 Copyright: 2016 Shengyu Zhang <i@silverrainz.me>
 License: GPL-3.0+
 
+Files: data/srain.metainfo.xml
+Copyright: 2016 Shengyu Zhang <i@silverrainz.me>
+License: FSFAP
+
 Files: debian/*
 Copyright: 2016 yangfl <mmyangfl@gmail.com>
 License: Expat
@@ -26,6 +30,11 @@ License: GPL-3.0+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: FSFAP
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice and
+ this notice are preserved. This file is offered as-is, without any warranty.
 
 License: Expat
  Copyright (c) 1998, 1999, 2000 Thai Open Source Software Center Ltd
