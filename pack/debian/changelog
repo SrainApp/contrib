@@ -1,8 +1,8 @@
-srain (1.0.1-1) unstable; urgency=medium
+srain (1.0.2-1) unstable; urgency=medium
 
-  * cleaned debian stuff
+  * [David Heidelberg] version bump & stuff
 
- -- David Heidelberg <david@ixit.cz>  Mon, 16 Mar 2020 13:25:39 +0000
+ -- Shengyu Zhang <i@silverrainz.me>  Sun, 19 Apr 2020 13:25:39 +0000
 
 srain (1.0.0-1) unstable; urgency=medium
 
